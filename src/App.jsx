@@ -4,11 +4,12 @@ import './App.css';
 
 function App() {
   let qwe = '1';
+  var qq = 1;
   return (
     // "*.js": "eslint",
     // "*.@(css|scss)": "stylelint",
     // "src/**/*.js": "eslint",
-    var qq;
+
     <div className="App">
       <header className="App-header">
         <img alt="logo"
