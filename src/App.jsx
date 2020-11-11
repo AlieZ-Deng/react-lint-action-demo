@@ -8,6 +8,7 @@ function App() {
     // "*.js": "eslint",
     // "*.@(css|scss)": "stylelint",
     // "src/**/*.js": "eslint",
+    var qq;
     <div className="App">
       <header className="App-header">
         <img alt="logo"
