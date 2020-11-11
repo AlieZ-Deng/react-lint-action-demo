@@ -19,8 +19,14 @@
     "lint": "eslint --ext .js --ext .jsx src ",
     "lint-fix": "eslint --fix --ext .js --ext .jsx src ",
     "stylelint": "stylelint **/*.scss",
-    "stylelint-fix": "stylelint **/*.scss --fix",
-    "pre-commit": "lint-staged"
+    "stylelint-fix": "stylelint **/*.scss --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "node script/verify-commit.js",
+      "pre-push": "npm test"
+    }
   },
   "lint-staged": {
     "src/*.{js,jsx,mjs,ts,tsx}": [
