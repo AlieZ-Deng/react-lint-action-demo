@@ -25,7 +25,7 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "commit-msg": "node script/verify-commit.js",
-      "pre-push": "npm test"
+      "pre-push": "push-staged"
     }
   },
   "lint-staged": {
@@ -37,6 +37,12 @@
     "src/*.{css,scss,less,json,html,md,markdown}": [
       "node_modules/.bin/stylelint --fix",
       "git add"
+    ]
+  },
+  "push-staged": {
+    "src/*.{js,jsx,mjs,ts,tsx}": [
+      "npm test",
+      "git push"
     ]
   },
   "eslintConfig": {
