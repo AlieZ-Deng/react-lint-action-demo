@@ -24,8 +24,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msg": "node script/verify-commit.js",
-      "pre-push": "push-staged"
+      "commit-msg": "node script/verify-commit.js"
+     
     }
   },
   "lint-staged": {
@@ -39,12 +39,7 @@
       "git add"
     ]
   },
-  "push-staged": {
-    "src/*.{js,jsx,mjs,ts,tsx}": [
-      "npm test",
-      "git push"
-    ]
-  },
+ 
   "eslintConfig": {
     "extends": [
       "react-app",
