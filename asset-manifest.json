@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-lint-action-demo/static/css/main.8ee68781.chunk.css",
+    "main.js": "/react-lint-action-demo/static/js/main.c1a05555.chunk.js",
+    "main.js.map": "/react-lint-action-demo/static/js/main.c1a05555.chunk.js.map",
+    "runtime-main.js": "/react-lint-action-demo/static/js/runtime-main.0b3752d0.js",
+    "runtime-main.js.map": "/react-lint-action-demo/static/js/runtime-main.0b3752d0.js.map",
+    "static/js/2.669fc276.chunk.js": "/react-lint-action-demo/static/js/2.669fc276.chunk.js",
+    "static/js/2.669fc276.chunk.js.map": "/react-lint-action-demo/static/js/2.669fc276.chunk.js.map",
+    "index.html": "/react-lint-action-demo/index.html",
+    "static/css/main.8ee68781.chunk.css.map": "/react-lint-action-demo/static/css/main.8ee68781.chunk.css.map",
+    "static/js/2.669fc276.chunk.js.LICENSE.txt": "/react-lint-action-demo/static/js/2.669fc276.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/react-lint-action-demo/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b3752d0.js",
+    "static/js/2.669fc276.chunk.js",
+    "static/css/main.8ee68781.chunk.css",
+    "static/js/main.c1a05555.chunk.js"
+  ]
+}
