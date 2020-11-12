@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  // const b = "123";
   const qwe = "1";
   return (
     // "*.js": "eslint",
