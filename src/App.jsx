@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   // const b = "123";
-  // const qwe = "1";
+  const qwe = "1";
   return (
     // "*.js": "eslint",
     // "*.@(css|scss)": "stylelint",
@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
         <img alt="logo" className="App-logo" src={logo} />
         {1 === 2 && <div />}
-        {/* {qwe} */}
+        {qwe}
         <p>
           Edit
           <code>src/App.js</code>
