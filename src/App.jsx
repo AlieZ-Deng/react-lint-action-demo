@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import React from 'react';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  let qwe = '1';
-  var qq = 1;
+  // const b = "123";
+  const qwe = "1";
   return (
     // "*.js": "eslint",
     // "*.@(css|scss)": "stylelint",
@@ -12,21 +12,15 @@ function App() {
 
     <div className="App">
       <header className="App-header">
-        <img alt="logo"
-            className="App-logo"
-            src={logo}
-        />
-        {1 === 2 && <div></div>}
+        <img alt="logo" className="App-logo" src={logo} />
+        {1 === 2 && <div />}
         {qwe}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit
+          <code>src/App.js</code>
+          and save to reload.
         </p>
-        <a
-            className="App-link"
-            href="https://reactjs.org"
-            rel="noopener noreferrer"
-            target="_blank"
-        >
+        <a className="App-link" href="https://reactjs.org" rel="noopener noreferrer" target="_blank">
           Learn React
         </a>
       </header>
